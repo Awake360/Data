@@ -26,6 +26,10 @@ section {
 	background: #6c1d5f url(../images/fleche-btn-suivant.png) no-repeat right 10px center;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 h1,
 h2,
 h3 {
@@ -42,6 +46,12 @@ h1 {
 h2 {
 	font-size: 278%;
 	color: #2c3e50;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 110%;
+	color: #06a99c;
 }
 
 /* HEADER */
@@ -191,29 +201,46 @@ h2 {
 		margin: 20px auto 100px auto;
 	}
 
-	#image-retour {
+	#bloc-section-retour div div,
+	#bloc-section-retour div img {
 		display: inline-block;
+		width: 50%;
 		vertical-align: top;
 	}
 
-	#texte-retour {
-		display: inline-block;
-		vertical-align: top;
+	#bloc-section-retour p {
+		margin: 0 10px;
 	}
 
 /* FOOTER */
-	#footer{
+	#footer {
 		background-color: #1a2530;
+		text-align: center;
 		font-size:70%;
+	}
+
+	#footer,
+	#footer a {
 		color: white;
 		text-decoration: none;
 		text-transform: uppercase;
-		text-align: center;
 	}
 
-	#links-footer-first{
+	#footer a {
+		padding: 0 10px;
+	}
+
+	#bloc-footer {
+		margin: 20px auto;
+		display: inline-block;
+	}
+
+	#links-footer-bold {
 		font-family: roboto_bold, Arial,sans-serif;
-		
+	}
+
+	#links-footer-regular {
+		font-family: roboto, Arial,sans-serif;;
 	}
 
 /* FONT-FACE */
