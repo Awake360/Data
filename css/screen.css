@@ -264,6 +264,21 @@ h3 {
 		background-color: #f4f4f4;
 	}
 
+	#section-missions table {
+		width: 833px;
+		margin: auto;
+	}
+
+	#section-missions td {
+		margin: 12px;
+		padding: 0 0 25px
+	}
+
+	#section-missions td h3,
+	#section-missions td p {
+		margin: 0;
+	}
+
 /* SECTION RETOUR D'EXPERIENCE */
 	#section-retour .bloc {
 		margin: 20px auto 100px;
