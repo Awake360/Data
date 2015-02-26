@@ -5,7 +5,8 @@
         <title>Data</title>
 
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700|Roboto:400,300,700' rel='stylesheet' type='text/css'>
-		<link href="./css/normalize.css" rel="stylesheet">
+        <link href="./css/normalize.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css"/>
 		<link href="./css/screen.css" rel="stylesheet">
     </head>
     <body>
@@ -59,6 +60,50 @@
             <div class="bloc">
                 <h2>Nos Experts</h2>
 
+                <div class="carousel">
+                    <div class="item hugo">
+                        <div>
+                            <h3>Hugo</h3>
+                            <p>"Lorem ipsum dolor sit amet."</p>
+                        </div>
+                    </div>
+                    <div class="item julien">
+                        <div>
+                            <h3>Julien</h3>
+                            <p>"Lorem ipsum dolor sit amet."</p>
+                        </div>
+                    </div>
+                    <div class="item matthieu">
+                        <div>
+                            <h3>Matthieu</h3>
+                            <p>"Lorem ipsum dolor sit amet."</p>
+                        </div>
+                    </div>
+                    <div class="item nicolas">
+                        <div>
+                            <h3>Nicolas</h3>
+                            <p>"Lorem ipsum dolor sit amet."</p>
+                        </div>
+                    </div>
+                    <div class="item pablo1">
+                        <div>
+                            <h3>Pablo</h3>
+                            <p>"Lorem ipsum dolor sit amet."</p>
+                        </div>
+                    </div>
+                    <div class="item pablo2">
+                        <div>
+                            <h3>Pablo</h3>
+                            <p>"Lorem ipsum dolor sit amet."</p>
+                        </div>
+                    </div>
+                    <div class="item yoann">
+                        <div>
+                            <h3>Yoann</h3>
+                            <p>"Lorem ipsum dolor sit amet."</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -102,7 +147,9 @@
             </div>
         </footer>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
 		<script type="text/javascript">
 			(function ($) {
 				$(".to-section").on('click', function (event) {
@@ -110,6 +157,15 @@
 
 			        $('html,body').animate({scrollTop: $(this.hash).offset().top}, 600);
 			    });
+
+                $(".carousel").slick({
+                  dots: false,
+                  infinite: true,
+                  speed: 300,
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  variableWidth: true
+                });
 			}(jQuery));
 		</script>
     </body>
