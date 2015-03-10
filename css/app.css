@@ -835,20 +835,30 @@ h3 {
         height: 100%;
     }
 
+    #section-missions .item div h3 {
+        margin: 20px 0 10px;
+    }
+
     .realisation {
-        background: transparent url(../images/realisation_mission.png) no-repeat center center;
+        background: white url(../images/realisation_mission.png) no-repeat center center;
     }
 
     .ideation {
-        background: transparent url(../images/ideation.png) no-repeat center center;
+        background: white url(../images/ideation.png) no-repeat center center;
     }
 
     .architecture {
-        background: transparent url(../images/architecture.png) no-repeat center center;
+        background: white url(../images/architecture.png) no-repeat center center;
     }
 
     .bigdata {
-        background: transparent url(../images/bigdata.png) no-repeat center center;
+        background: white url(../images/bigdata.png) no-repeat center center;
+    }
+
+    #section-missions td h3 {
+        font-size: 100%;
+        text-align: center;
+        margin: 10px 0;
     }
 
 /* SECTION RETOUR D'EXPERIENCE */
