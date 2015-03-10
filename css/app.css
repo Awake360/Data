@@ -817,12 +817,38 @@ h3 {
 
     #section-missions td {
         margin: 12px;
-        padding: 0 0 25px
+        padding: 0 0 25px;
     }
 
     #section-missions td h3,
     #section-missions td p {
         margin: 0;
+    }
+
+    #section-missions .item {
+        width: 406px;
+        height: 200px;
+    }
+
+    #section-missions .item div {
+        width: 100%;
+        height: 100%;
+    }
+
+    .realisation {
+        background: transparent url(../images/realisation_mission.png) no-repeat center center;
+    }
+
+    .ideation {
+        background: transparent url(../images/ideation.png) no-repeat center center;
+    }
+
+    .architecture {
+        background: transparent url(../images/architecture.png) no-repeat center center;
+    }
+
+    .bigdata {
+        background: transparent url(../images/bigdata.png) no-repeat center center;
     }
 
 /* SECTION RETOUR D'EXPERIENCE */
