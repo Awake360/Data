@@ -608,6 +608,16 @@ h3 {
     margin: auto;
 }
 
+.half {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.tcenter {
+    text-align: center;
+}
+
 /* HEADER */
     #menu-top {
         margin: 20px;
@@ -868,13 +878,6 @@ h3 {
 
     #section-retour .bloc>div {
         margin: 50px 0 170px;
-    }
-
-    #section-retour .bloc div div,
-    #section-retour .bloc div img {
-        display: inline-block;
-        width: 50%;
-        vertical-align: top;
     }
 
     #section-retour .bloc p {
