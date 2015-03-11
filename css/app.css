@@ -846,7 +846,7 @@ h3 {
     }
 
     #section-missions .item div h3 {
-        margin: 20px 0 10px;
+        margin: 40px 0 10px;
     }
 
     .realisation {
@@ -882,6 +882,16 @@ h3 {
 
     #section-retour .bloc p {
         margin: 0 10px;
+    }
+     #section-retour h3 {
+        font-size: 120%;
+        text-align: left;
+        margin: 0;
+    }
+     #section-retour li{
+        font-size: 90%;
+        text-align: left;
+        margin: 0;
     }
 
 /* FOOTER */
