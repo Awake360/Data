@@ -925,7 +925,7 @@ h3 {
     }
 
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 500px) {
     body {
     zoom : 0.1;
 }
