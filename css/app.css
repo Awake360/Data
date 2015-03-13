@@ -556,6 +556,12 @@ section {
     background-color: white;
 }
 
+section,
+header,
+footer {
+    min-width: 1200px;
+}
+
 h1,
 h2,
 h3 {
