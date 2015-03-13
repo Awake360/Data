@@ -926,8 +926,8 @@ h3 {
 
 
 @media screen and (max-width: 500px) {
-    html {
-    zoom : 0.2;
+  @viewport {
+ width: 320px;
+ zoom: 0.5;
 }
 }
-
