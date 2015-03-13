@@ -925,7 +925,29 @@ h3 {
     }
 
 
-@media screen and (max-width: 500px)
-{
-    zoom: 0.3;
+@media screen and (max-width: 340px) {
+    html {
+    zoom : 0.2;
 }
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 480px) {
+    html {
+    zoom : 0.3;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    html {
+    zoom : 0.4;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    html {
+    zoom : 0.8;
+}
+}
+
