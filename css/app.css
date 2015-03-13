@@ -924,10 +924,8 @@ h3 {
         margin: 40px 0 30px;
     }
 
+ @viewport {
+ width: 520px;
+ zoom: 0;
+}
 
-@media screen and (max-width: 1280px){
-    @viewport {
- width: 320px;
- zoom: 0.1;
-}
-}
