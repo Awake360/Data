@@ -923,7 +923,14 @@ h3 {
     #footer img {
         margin: 40px 0 30px;
     }
+
+    @viewport {
+ width: 320px;
+ zoom: 0.1;
+}
+
 @media screen and (max-width: 1280px)
 {
     zoom: 0.3;
+    wid
 }
